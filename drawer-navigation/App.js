@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator, DrawerItemList } from '@react-navigation/drawer';
 import { SimpleLineIcons, MaterialIcons, MaterialCommunityIcons, FontAwesome } from '@expo/vector-icons';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Home from './screens/Home';
 import Timer from './screens/Timer';
 import Categories from './screens/Categories';
@@ -12,7 +13,6 @@ import Backups from './screens/Backups';
 import GetPremuim from './screens/GetPremuim';
 import RateApp from './screens/RateApp';
 import Contact from './screens/Contact';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import User from "./assets/user.jpg";
 
 const Drawer = createDrawerNavigator();
