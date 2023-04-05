@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
-import { FlatList, ScrollView, TouchableWithoutFeedback } from "react-native";
+import { FlatList, ScrollView, TouchableWithoutFeedback, Modal, TextInput, View, Text, Image } from "react-native";
 import { TouchableOpacity,Dimensions } from "react-native";
-import { Modal } from "react-native";
-import { TextInput } from "react-native";
-import { Text, View , Image} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import down from "./assets/down.png";
 import usFlag from "./assets/us-flag.jpg";
